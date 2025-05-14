@@ -1,0 +1,452 @@
+@charset "utf-8";
+* {
+margin:0; padding:0;
+box-sizing:border-box;
+}
+ul {
+list-style-type:none;
+}
+a {
+text-decoration:none;
+}
+div#modal {
+display:none;
+z-index:100;
+position:fixed;
+left:0; top:0;
+width:100%; height:100%;
+background:#00000080;
+}
+#modal:target {
+display:block;
+}
+	div.modalwrap {
+	position:relative;
+	margin:150px auto;
+	width:400px; height:300px;
+	background:#fff;
+	}
+		h2.modaltitle {
+		width:400px; height:50px;
+		text-align:center;
+		line-height:48px;
+		background:#000;
+		color:#fff;
+		}
+		p.modalcontent {
+		margin:30px auto;
+		padding:2px 8px;
+		width:370px; height:171px;
+		background:#fff;
+		border:5px solid #000;
+		border-radius:15px;
+		text-align:justify;
+		}
+		a.modalclose {
+		position:absolute;
+		left:337px; top:265px;
+		background:#fff;
+		color:#000;
+		display:block;
+		width:60px; height:30px;
+		border:2px solid #000;
+		border-radius:10px;
+		text-align:center;
+		line-height:26px;
+		}
+		a.modalclose:hover {
+		background:#fff;
+		color:#000;
+		font-weight:bold;
+		}
+div.wrap {
+width:1200px; height:700px;
+margin:0 auto;
+box-shadow:15px 15px 0px 10px #00000080;
+}
+header {
+width:1200px; height:100px;
+background:#fff;
+position:relative;
+}
+	div.logo {
+	position:absolute;
+	top:-20px;
+	}
+	div.logo > img {
+	width:270px; height:150px;
+	}
+	nav {
+	float:left;
+	width:1000px; height:100px;
+	}
+		ul.mainmenu {
+		list-style-type:none;
+		width:800px; height:0px;
+		margin-top:30px;
+		margin-left:360px;
+		}
+			ul.mainmenu > li {
+			position:relative;
+			float:left;
+			}
+				ul.mainmenu > li > a {
+				display:block;
+				width:200px; height:80px;
+				background:#fff;
+				text-decoration:none;
+				font-size:24px;
+				color:#000;
+				text-align:center;
+				line-height:48px;
+				}
+				ul.mainmenu > li > a:hover {
+				background:#ff000080;
+				color:#fff;
+				}
+				ul.submenu {
+				z-index:30;
+				position:absolute;
+				left:0; top:50px;
+				}
+					ul.submenu > li {
+
+					}
+						ul.submenu > li > a {
+						display:block;
+						width:200px; height:0px;
+						overflow:hidden;
+						background:#fff;
+						font-size:14px;
+						color:#302;
+						text-align:center;
+						line-height:38px;
+						transition:all 1.2s;
+						}
+						ul.mainmenu > li:hover > ul.submenu a {
+						height:40px;
+						}
+						ul.submenu > li > a:hover {
+						background:#ff000080;
+						}
+div.slide {
+position:relative;
+float:left;
+width:1200px; height:300px;
+overflow:hidden;
+}
+	div.slide > h2 {
+	z-index:20;
+	position:absolute;
+	left:140px; top:80px;
+	width:1000px; height:100px;
+	font-size:40px;
+	color:#fff;
+	text-align:center;
+	line-height:100px;
+	text-shadow: 2px 2px 4px #000000;
+	}
+	h2.slidetext1 {
+	animation:slidetxt1 9s infinite;
+	}
+	h2.slidetext2 {
+	animation:slidetxt2 9s infinite;
+	}
+	h2.slidetext3 {
+	animation:slidetxt3 9s infinite;
+	}
+	div.slide > img {
+	position:absolute;
+	left:0; top:0px;
+	}
+	img.img1 {
+	animation:slide1 9s infinite;
+	}
+	img.img2 {
+	animation:slide2 9s infinite;
+	}
+	img.img3 {
+	animation:slide3 9s infinite;
+	}
+div.main {
+float:left;
+width:1200px; height:200px;
+}
+	div.c1 {
+	position:relative;
+	float:left;
+	width:400px; height:200px;
+	}
+			h2.noti {
+				z-index:10;
+				background:#fff;
+				position:absolute;
+				left:0px; top:0px;
+				display:block;
+				width:398px; height:35px;
+				border:1px solid #888;
+				text-align:center;
+				font-size:20px;
+				line-height:34px;
+				color:#000;
+				}
+				div.noticontent {
+				position:absolute;
+				left:0px; top:25px;
+				width:378px; height:143px;
+				padding:10px;
+				}
+				div.noticontent > p {
+				font-size:12px;
+				}
+					p.leftp {
+					float:left;
+					margin-top:5px;
+					width:270px; height:30px;
+					font-size:15px;
+					color:#000;
+					text-align:left;
+					line-height:28px;
+					background:#fff;
+					}
+					p.leftp1 {
+					float:left;
+					margin-top:1px;
+					width:250px; height:30px;
+					font-size:15px;
+					line-height:28px;
+					}
+					p.rightp1 {
+					float:left;
+					margin-top:1px;
+					width:50px; height:30px;
+					background:#fff;
+					font-size:15px;
+					line-height:28px;
+					}
+					p.rightp2 {
+					float:left;
+					margin-top:1px;
+					width:50px; height:30px;
+				    background:#fff;
+					font-size:14px;
+					line-height:28px;
+					}
+	div.c2 {
+	float:left;
+	width:400px; height:200px;
+	}
+		h2.gallh2 {
+		width:400px; height:35px;
+		border-right:1px solid #888;
+		border-bottom:1px solid #888;
+		border-top:1px solid #888;
+		text-align:center;
+		font-size:25px;
+		line-height:34px;
+		color:#222328;
+		}
+		div.c2 > img {
+		margin-top:33px;
+		margin-left:37px;
+		border-radius:10px;
+		width:80px; height:90px;
+		}
+	    div.c2 > img:hover {
+		border:3px solid #000;
+		}
+	div.c3 {
+	float:left;
+	width:400px; height:200px;
+	}
+		h2.baroh2 {
+		width:398px; height:35px;
+		border-right:1px solid #888;
+		border-bottom:1px solid #888;
+		border-top:1px solid #888;
+		border-left:1px solid #888;
+		text-align:center;
+		font-size:25px;
+		line-height:34px;
+		color:#222328;
+		}
+		div.c3 > img {
+		width:400px; height:160px;
+		}
+footer {
+width:1200px; height:100px;
+}
+	div.lower {
+	float:left;
+	width:1000px; height:100px;
+
+	}
+		div.lowmenu {
+		width:1000px; height:50px;
+		}
+			a.menu1 {
+			display:block;
+			float:left;
+			width:150px; height:50px;
+			font-size:14px;
+			line-height:53px;
+			color:#000;
+			text-align:center;
+			margin-left:80px;
+			}
+			a.menu2 {
+			display:block;
+			float:left;
+			width:150px; height:50px;
+			font-size:14px;
+			line-height:53px;
+			color:#000;
+			text-align:center;
+			margin-left:100px;
+			}
+			a.menu3 {
+			display:block;
+			float:left;
+			width:150px; height:50px;
+			font-size:14px;
+			line-height:53px;
+			color:#000;
+			text-align:center;
+			margin-left:100px;
+			}
+			a.menu1:hover {
+			background:#000;
+			font-weight:bold;
+			color:#fff;
+			}
+			a.menu2:hover {
+			background:#000;
+			font-weight:bold;
+			color:#fff;
+			}
+			a.menu3:hover {
+			background:#000;
+			font-weight:bold;
+			color:#fff;
+			}
+	div.copy {
+	width:1000px; height:50px;
+	}
+			p.copy2{
+			margin-left:50px;
+			display:block;
+			float:left;
+			width:1000px; height:50px;
+			font-size:14px;
+			color:#000;
+			text-align:center;
+			line-height:48px;
+			}
+			p.fone {
+			font-size:11px;
+			text-align:center;
+			line-height:30px;
+			color:#333;
+			margin-top:-16px;
+			}
+			p.site {
+			font-size:11px;
+			text-align:center;
+			line-height:30px;
+			color:#333;
+			margin-top:-14px;
+			}
+			p.copy1 {
+			font-size:11px;
+			text-align:center;
+			line-height:30px;
+			color:#333;
+			margin-top:-16px;
+			}
+	div.site {
+	float:left;
+	width:200px; height:100px;
+	}
+		.dropbtn {
+		  background-color:#fff;
+		  width:200px; height:50px;
+		  color:#000;
+		  padding: 16px;
+		  font-size: 13px;
+		  border: none;
+		  cursor: pointer;
+		}
+
+		.dropdown {
+		  position: relative;
+		  display:block;
+		}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  width: 100px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  color: black;
+		  padding: 20px 20px;
+		  text-decoration: none;
+		  display: block;
+		  width:180px; height:35px;
+		}
+
+		.dropdown-content a:hover {background-color:#999}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+
+		.dropdown:hover .dropbtn {
+		  background-color: #999;
+		}
+@keyframes slide1 {
+0% {opacity:1;}
+33% {opacity:0;}
+66% {opacity:0;}
+100% {opacity:1;}
+}
+@keyframes slide2 {
+0% {opacity:0;}
+33% {opacity:1;}
+66% {opacity:0;}
+100% {opacity:0;}
+}
+@keyframes slide3 {
+0% {opacity:0;}
+33% {opacity:0;}
+66% {opacity:1;}
+100% {opacity:0;}
+}
+@keyframes slidetxt1 {
+  0% {opacity:1;left:140px; top:80px;font-size:40px;color:#fff;}
+ 33% {opacity:0;left:-1200px; top:80px;font-size:10px;color:#000;}
+ 66% {opacity:0;}
+100% {opacity:1;}
+}
+@keyframes slidetxt2 {
+  0% {opacity:0;}
+ 33% {opacity:1;left:140px; top:80px;font-size:40px;color:#fff;}
+ 66% {opacity:0;left:1200px; top:80px;font-size:20px;color:#000;}
+100% {opacity:0;}
+}
+@keyframes slidetxt3 {
+  0% {opacity:0;}
+ 33% {opacity:0;}
+ 66% {opacity:1;left:140px; top:80px;font-size:40px;color:#fff;}
+100% {opacity:0;left:140px; top:-100px;font-size:30px;color:#000;}
+}
+@keyframes svgani {
+0% {opacity:1; }
+33% {opacity:0; }
+66% {opacity:1; }
+100% {opacity:0; }
+}

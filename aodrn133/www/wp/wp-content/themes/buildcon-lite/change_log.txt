@@ -1,0 +1,11 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Theme updated with new HTMl and CSS changes.
+
+Version 1.1.1
+i) Updated links within content underlined.
+
+Version 1.1.2
+i) Added some functionality.

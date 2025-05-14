@@ -1,0 +1,79 @@
+/*
+Theme Name: Chique Dark
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+.editor-post-title__block .editor-post-title__input {
+	color:  #fff;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+figure.wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
+    background-color: #2d2d2d;
+}
+
+blockquote.wp-block-quote:not(.is-style-large) .wp-block-quote__citation,
+blockquote.wp-block-quote:not(.is-style-large) cite,
+.is-style-default .wp-block-pullquote__citation,
+.wp-block-pullquote .wp-block-pullquote__citation {
+	color: #666;
+}
+
+.wp-block-button .wp-block-button__link {
+	background-color: #e186a2;
+}
+
+.is-style-outline .wp-block-button__link,
+.wp-block-button__link.is-style-outline,
+.is-style-outline > .wp-block-button__link:not(.has-text-color),
+.wp-block-button__link.is-style-outline:not(.has-text-color) {
+    color: #e186a2;
+}
+
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+	color:  #fff;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+	border-color: #f2b104;
+}
+
+.wp-block .wp-block-pullquote,
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+    border-color: #f2b104;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce blockquote {
+	border-color: #f2b104;
+}
+
+.wp-block.wp-block-pullquote {
+	border-top: 3px solid #f2b104;
+	border-bottom: 3px solid #f2b104;
+}
+
+.wp-block-table,
+.wp-block-table td,
+.wp-block-table th {
+	border: 1px solid #1d1d1d;
+}
+
+.wp-block-table thead th {
+	background-color: #1d1d1d;
+	color:  #fff;
+}
+
+.block-editor .editor-styles-wrapper pre {
+	background-color: #2d2d2d;
+	border: 1px solid #1d1d1d;
+	color: #999;
+}
+
+.block-editor .editor-styles-wrapper blockquote {
+	color: #fff;
+}
+
+figure.wp-block-pullquote.is-style-solid-color {
+	background-color: #212121;
+}

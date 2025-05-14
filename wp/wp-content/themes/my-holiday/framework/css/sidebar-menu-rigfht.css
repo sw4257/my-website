@@ -1,0 +1,35 @@
+
+/********* Custom Menu Widget Right Sidebar **********/
+
+
+/**** SECOND LEVEL MENU ****/
+
+#secondary .menu li:hover ul{
+    left: -200px;
+    top: 0;
+    display: block;	
+}
+
+/**** THIRD LEVEL MENU ****/
+
+
+#secondary .menu li:hover ul li:hover ul {
+    display: block;
+    left: -200px;
+    top: 0;
+}
+
+/********* Menu Arrow **********/
+
+#secondary .menu li > a:after {
+    padding-left: 10px;
+    color: #fff;
+    content: ' ‹';
+	font-size: 14px;
+}
+
+#secondary .menu li > a:hover:after {
+    color: #fff;
+    content: ' ';
+}
+

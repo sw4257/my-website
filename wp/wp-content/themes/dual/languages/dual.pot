@@ -1,0 +1,1119 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-15 07:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1\n"
+"X-Domain: dual"
+
+#: inc/customizer/custom-classes.php:149
+msgid " Available on Premium Version."
+msgstr ""
+
+#: classes/about-render.php:270
+msgid "$"
+msgstr ""
+
+#. number of items in the mini cart.
+#: woocommerce/woocommerce-function.php:103
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/custom-functions.php:102
+msgid "-- Select Category --"
+msgstr ""
+
+#: inc/custom-functions.php:1519
+msgid "/"
+msgstr ""
+
+#: inc/custom-functions.php:1518 inc/customizer/banner-slider.php:66
+msgid "1"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:67
+msgid "2"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:68
+msgid "3"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:69
+msgid "4"
+msgstr ""
+
+#: classes/about-render.php:271
+msgid "49"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:70
+msgid "5"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:71
+msgid "6"
+msgstr ""
+
+#: classes/about-render.php:254
+msgid "800+ Font Families"
+msgstr ""
+
+#: classes/plugins-classes.php:31
+msgid "Activate"
+msgstr ""
+
+#: classes/plugins-classes.php:139
+msgid "Activated"
+msgstr ""
+
+#: functions.php:256
+msgid "Active"
+msgstr ""
+
+#: functions.php:114 functions.php:124
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/customizer/pagination.php:37
+msgid "Ajax Auto Load"
+msgstr ""
+
+#: inc/customizer/pagination.php:36
+msgid "Ajax Load More Button"
+msgstr ""
+
+#: inc/metabox.php:90 inc/customizer/single.php:64
+msgid "Ajax Load Next 3 Posts Contents"
+msgstr ""
+
+#: inc/widgets/recent-post.php:57
+msgid "All Categories"
+msgstr ""
+
+#: inc/customizer/default.php:34
+msgid "All rights reserved."
+msgstr ""
+
+#: inc/metabox.php:52
+msgid "Appearance Settings"
+msgstr ""
+
+#: classes/about-render.php:82 inc/customizer/layout.php:13
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/customizer/header.php:14
+msgid "Aside-Bar Settings"
+msgstr ""
+
+#: classes/about-render.php:29
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/header.php:207
+msgid "Banner Slider Category"
+msgstr ""
+
+#: classes/about-render.php:237
+msgid ""
+"Behind every single customer support question stands a real person ready to "
+"fix the problem in real-time and guide you through."
+msgstr ""
+
+#: assets/lib/tgmpa/recommended-plugins.php:50
+msgid "Booster Extension"
+msgstr ""
+
+#: inc/metabox.php:147
+msgid "Booster Extension Plugin Content"
+msgstr ""
+
+#: inc/metabox.php:61
+msgid "Booster Extension Settings"
+msgstr ""
+
+#: woocommerce/woocommerce-function.php:178
+#: woocommerce/woocommerce-function.php:186
+msgid "Buy Now"
+msgstr ""
+
+#: inc/custom-functions.php:735
+msgid "By "
+msgstr ""
+
+#: functions.php:258 inc/customizer/customizer.php:140
+#: inc/widgets/widget-base-class.php:250
+msgid "Choose Image"
+msgstr ""
+
+#: classes/about-render.php:48 classes/about-render.php:253
+#: inc/customizer/customizer.php:37
+msgid "Color Options"
+msgstr ""
+
+#: classes/about-render.php:44 inc/customizer/customizer.php:74
+msgid "Color Settings"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:99 inc/widgets/tab-posts.php:105
+msgid "Comments"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/widgets/tab-posts.php:103
+msgid "Comments Posts Title"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/custom-functions.php:650
+msgid "Connect with Us:"
+msgstr ""
+
+#. %s: Name of current post.
+#: inc/pagination.php:186 template-parts/content-single.php:88
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/custom-functions.php:732
+msgid "Copyright "
+msgstr ""
+
+#: classes/about-render.php:228
+msgid "Create a Ticket"
+msgstr ""
+
+#: inc/customizer/preloader.php:40
+msgid "Cursor Options"
+msgstr ""
+
+#: functions.php:257 classes/plugins-classes.php:23
+msgid "Deactivate"
+msgstr ""
+
+#: classes/plugins-classes.php:130
+msgid "Deactivated"
+msgstr ""
+
+#: inc/metabox.php:113 inc/customizer/post.php:93
+msgid "Default"
+msgstr ""
+
+#: inc/custom-header.php:34
+msgid "Default Header Image"
+msgstr ""
+
+#: assets/lib/tgmpa/recommended-plugins.php:55
+msgid "Demo Import Kit"
+msgstr ""
+
+#: inc/metabox.php:88 inc/customizer/single.php:62
+msgid "Disable Navigation"
+msgstr ""
+
+#: inc/metabox.php:173
+msgid "Disable Post Author Box"
+msgstr ""
+
+#: inc/metabox.php:166
+msgid "Disable Post Like Dislike"
+msgstr ""
+
+#: inc/metabox.php:194
+msgid "Disable Post Rating"
+msgstr ""
+
+#: inc/metabox.php:187
+msgid "Disable Post Reaction"
+msgstr ""
+
+#: inc/metabox.php:159
+msgid "Disable Post Read Time"
+msgstr ""
+
+#: inc/metabox.php:180
+msgid "Disable Post Social Share"
+msgstr ""
+
+#: inc/metabox.php:152
+msgid "Disable Post Views"
+msgstr ""
+
+#: classes/admin-notice.php:76
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/widgets/category.php:37
+msgid "Displays categories and posts."
+msgstr ""
+
+#: inc/widgets/recent-post.php:45
+msgid ""
+"Displays post form selected category specific for popular post in sidebars."
+msgstr ""
+
+#: inc/widgets/social-link.php:37
+msgid "Displays Social share."
+msgstr ""
+
+#: inc/widgets/social-link.php:127
+msgid "Dribbble URL:"
+msgstr ""
+
+#. Name of the theme
+msgid "Dual"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Dual a Minimalist, Clean and simple WordPress Theme suitable for any kind of "
+"blog, personal, travel, fashion, food, photography, publishing, or portfolio "
+"blog sites. Dual is compatible with the new and Clasic Editor along with "
+"plugins like WooCommerce."
+msgstr ""
+
+#: classes/admin-notice.php:66
+msgid ""
+"Dual is now installed and ready to use. Are you looking for a better "
+"experience to set up your site?"
+msgstr ""
+
+#: classes/about.php:22
+msgid "Dual Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:98
+msgid "Dual Pro"
+msgstr ""
+
+#: inc/widgets/category.php:60
+msgid "Dual: Category Widget"
+msgstr ""
+
+#: inc/widgets/recent-post.php:74
+msgid "Dual: Recent Post Widget"
+msgstr ""
+
+#: inc/widgets/social-link.php:137
+msgid "Dual: Social Widget"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:117
+msgid "Dual: Tab Posts Widget"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:283
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer/header.php:224
+msgid "Enable Autoplay"
+msgstr ""
+
+#: inc/widgets/category.php:55
+msgid "Enable Category Description:"
+msgstr ""
+
+#: inc/widgets/recent-post.php:60
+msgid "Enable Counter:"
+msgstr ""
+
+#: inc/customizer/preloader.php:57
+msgid "Enable Custom Cursor"
+msgstr ""
+
+#: inc/customizer/header.php:32
+msgid "Enable Dark and Night Mode"
+msgstr ""
+
+#: inc/customizer/header.php:256
+msgid "Enable Navigation"
+msgstr ""
+
+#: inc/customizer/header.php:240
+msgid "Enable Pagination"
+msgstr ""
+
+#: inc/customizer/post.php:29
+msgid "Enable Posts Author"
+msgstr ""
+
+#: inc/customizer/post.php:59
+msgid "Enable Posts Category"
+msgstr ""
+
+#: inc/customizer/post.php:44
+msgid "Enable Posts Date"
+msgstr ""
+
+#: inc/customizer/post.php:74
+msgid "Enable Posts Tags"
+msgstr ""
+
+#: inc/customizer/preloader.php:30
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/customizer/header.php:64
+msgid "Enable Recent Posts on Search Area"
+msgstr ""
+
+#: inc/customizer/single.php:28
+msgid "Enable Related Posts"
+msgstr ""
+
+#: inc/customizer/footer.php:44
+msgid "Enable Scroll Top Button"
+msgstr ""
+
+#: inc/customizer/header.php:49
+msgid "Enable Search"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:29
+msgid "Enable Slider Section"
+msgstr ""
+
+#: inc/customizer/header.php:92
+msgid "Enable Top Category on Search Area"
+msgstr ""
+
+#: 404.php:39
+msgid ""
+"Enjoy these stories about getting lost, losing things, and finding what you "
+"never knew you were looking for."
+msgstr ""
+
+#: classes/about-render.php:72
+msgid "Entry Meta Settings"
+msgstr ""
+
+#: classes/plugins-classes.php:79
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: inc/widgets/tab-posts.php:74
+msgid "Excerpt Length:"
+msgstr ""
+
+#: classes/about-render.php:118
+msgid "Eye-catching, Lightweight, and Highly Customizable WordPress Theme"
+msgstr ""
+
+#: inc/widgets/social-link.php:47
+msgid "Facebook URL:"
+msgstr ""
+
+#: classes/plugins-classes.php:176 classes/plugins-classes.php:185
+msgid "Failed"
+msgstr ""
+
+#: inc/term-meta.php:9 inc/term-meta.php:68
+msgid "Feature Image"
+msgstr ""
+
+#: inc/customizer/footer.php:29
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: functions.php:301
+msgid "Footer Menu"
+msgstr ""
+
+#: classes/about-render.php:87
+msgid "Footer Setting"
+msgstr ""
+
+#: inc/customizer/footer.php:13
+msgid "Footer Settings"
+msgstr ""
+
+#: functions.php:112
+msgid "Footer Widget One"
+msgstr ""
+
+#: functions.php:122
+msgid "Footer Widget Two"
+msgstr ""
+
+#: inc/widgets/social-link.php:122
+msgid "FourSquare URL:"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:69
+msgid "Full"
+msgstr ""
+
+#: classes/about-render.php:15 inc/customizer/customizer.php:66
+msgid "General Settings"
+msgstr ""
+
+#: classes/admin-notice.php:68
+msgid "Getting started"
+msgstr ""
+
+#: inc/widgets/social-link.php:117
+msgid "Github URL:"
+msgstr ""
+
+#: inc/metabox.php:111
+msgid "Global"
+msgstr ""
+
+#: inc/metabox.php:87
+msgid "Global Layout"
+msgstr ""
+
+#: inc/customizer/post.php:89
+msgid "Global Video Aspect Ratio"
+msgstr ""
+
+#: woocommerce/woocommerce-function.php:196
+msgid "Go to cart"
+msgstr ""
+
+#: inc/customizer/header.php:174
+msgid "Header Button label"
+msgstr ""
+
+#: inc/customizer/header.php:190
+msgid "Header Button Link"
+msgstr ""
+
+#: inc/customizer/header.php:158
+msgid "Header Description"
+msgstr ""
+
+#: classes/about-render.php:24
+msgid "Header Media"
+msgstr ""
+
+#: inc/customizer/header.php:127
+msgid "Header Media Banner"
+msgstr ""
+
+#: inc/customizer/header.php:122
+msgid "Header Media Type"
+msgstr ""
+
+#: classes/about-render.php:62
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/header.php:142
+msgid "Header Text"
+msgstr ""
+
+#: inc/customizer/default.php:24
+msgid "Hello World!"
+msgstr ""
+
+#: 404.php:28
+msgid "Homepage"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.themeinwp.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.themeinwp.com/theme/dual"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:227 inc/template-tags.php:264
+msgid "In"
+msgstr ""
+
+#: inc/widgets/social-link.php:62
+msgid "Instagram URL:"
+msgstr ""
+
+#: classes/plugins-classes.php:34
+msgid "Install & Active"
+msgstr ""
+
+#: classes/admin-notice.php:71
+msgid "Install and activate recommended plugins"
+msgstr ""
+
+#: classes/plugins-classes.php:168
+msgid "Installed & Activated"
+msgstr ""
+
+#: template-parts/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: classes/about-render.php:231
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/metabox.php:119 inc/customizer/post.php:96
+msgid "Landscape"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:68
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/layout.php:36
+msgid "Layout Setting"
+msgstr ""
+
+#: inc/metabox.php:17 inc/metabox.php:25
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/widgets/social-link.php:57
+msgid "Linkedin URL:"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:254
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: functions.php:199 inc/pagination.php:34
+msgid "Load More Posts"
+msgstr ""
+
+#: functions.php:201
+msgid "Loading..."
+msgstr ""
+
+#: classes/about-render.php:19
+msgid "Logo & Site Identity"
+msgstr ""
+
+#: classes/about-render.php:223
+msgid "Looking for help?"
+msgstr ""
+
+#: 404.php:26
+msgid "Maybe it’s out there, somewhere..."
+msgstr ""
+
+#: inc/widgets/tab-posts.php:67
+msgid "Medium"
+msgstr ""
+
+#: classes/about-render.php:34
+msgid "Menu Settings"
+msgstr ""
+
+#: inc/customizer/custom-classes.php:149
+msgid "More "
+msgstr ""
+
+#: classes/about-render.php:255
+msgid "More Custom Widgets"
+msgstr ""
+
+#: classes/about-render.php:256
+msgid "More Customizer controls"
+msgstr ""
+
+#: classes/about-render.php:257
+msgid "More page/post meta options"
+msgstr ""
+
+#: classes/about-render.php:261
+msgid "much more stuff..."
+msgstr ""
+
+#: functions.php:230
+msgid "Mute"
+msgstr ""
+
+#: inc/metabox.php:78
+msgid "Navigation Setting"
+msgstr ""
+
+#: inc/metabox.php:83
+msgid "Navigation Type"
+msgstr ""
+
+#: inc/pagination.php:49 inc/pagination.php:59
+msgid "Newer posts"
+msgstr ""
+
+#: inc/custom-functions.php:377
+msgid "Next post:"
+msgstr ""
+
+#: inc/metabox.php:89 inc/customizer/single.php:63
+msgid "Next Previous Navigation"
+msgstr ""
+
+#: inc/customizer/pagination.php:34
+msgid "Next/Previous Method"
+msgstr ""
+
+#: functions.php:200 inc/pagination.php:35
+msgid "No More Posts"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:108
+msgid "No. of Comments:"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:54 inc/widgets/tab-posts.php:91
+msgid "No. of Posts:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/customizer/layout.php:58
+msgid "Number of Column"
+msgstr ""
+
+#: inc/widgets/recent-post.php:65
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:75
+msgid "Number of words"
+msgstr ""
+
+#: inc/customizer/pagination.php:35
+msgid "Numeric Method"
+msgstr ""
+
+#: inc/pagination.php:47 inc/pagination.php:58
+msgid "Older posts"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: classes/admin-notice.php:68
+msgid ""
+"page. It helps you get started and configure your upcoming website with ease."
+" Let's make it shine!"
+msgstr ""
+
+#: inc/custom-functions.php:1054 inc/pagination.php:192
+#: template-parts/content-single.php:95
+msgid "Pages:"
+msgstr ""
+
+#: inc/customizer/pagination.php:30
+msgid "Pagination Method"
+msgstr ""
+
+#: classes/about-render.php:67 inc/customizer/pagination.php:13
+msgid "Pagination Settings"
+msgstr ""
+
+#: functions.php:229 template-parts/content-video.php:53
+msgid "Pause"
+msgstr ""
+
+#: inc/widgets/social-link.php:67
+msgid "Pinterest URL:"
+msgstr ""
+
+#: functions.php:228 template-parts/content-video.php:56
+msgid "Play"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:63
+msgid "Please refresh to get actual no of page field below"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:45 inc/widgets/tab-posts.php:51
+msgid "Popular"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:49
+msgid "Popular Posts Title"
+msgstr ""
+
+#: inc/metabox.php:117 inc/customizer/post.php:95
+msgid "Portrait"
+msgstr ""
+
+#: inc/customizer/post.php:13
+msgid "Posts Settings"
+msgstr ""
+
+#: inc/custom-functions.php:736
+msgid "Powered by "
+msgstr ""
+
+#: inc/customizer/preloader.php:13
+msgid "Preloader Setting"
+msgstr ""
+
+#: inc/custom-functions.php:376
+msgid "Previous post:"
+msgstr ""
+
+#: functions.php:300
+msgid "Primary Menu"
+msgstr ""
+
+#: classes/admin-notice.php:64
+msgid "Quick Setup"
+msgstr ""
+
+#: template-parts/content.php:99 template-parts/content-video.php:185
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/widgets/tab-posts.php:82 inc/widgets/tab-posts.php:88
+msgid "Recent"
+msgstr ""
+
+#: inc/customizer/default.php:56
+msgid "Recent Post"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:86
+msgid "Recent Posts Title"
+msgstr ""
+
+#: classes/about-render.php:171
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/widgets/social-link.php:72
+msgid "Reddit URL:"
+msgstr ""
+
+#: inc/customizer/default.php:43
+msgid "Related Post"
+msgstr ""
+
+#: inc/customizer/header.php:78 inc/customizer/single.php:43
+msgid "Related Posts Section Title"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:261
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: classes/about-render.php:259
+msgid "Remove Footer Attribution (copyright)"
+msgstr ""
+
+#. %s: search query.
+#: inc/custom-functions.php:1308
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:259 inc/customizer/customizer.php:141
+msgid "Select"
+msgstr ""
+
+#: inc/custom-functions.php:320
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:45
+msgid "Select Category For Blog "
+msgstr ""
+
+#: inc/widgets/recent-post.php:55
+msgid "Select Category:"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:250
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:62
+msgid "Select Image Size Featured Post:"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:62
+msgid "Select no of slider"
+msgstr ""
+
+#: inc/custom-functions.php:67
+msgid "Select Page"
+msgstr ""
+
+#: inc/custom-functions.php:280
+msgid "Show sub menu"
+msgstr ""
+
+#: inc/customizer/default.php:25
+msgid "Sign Up"
+msgstr ""
+
+#: inc/customizer/single.php:58
+msgid "Single Post Navigation Type"
+msgstr ""
+
+#: classes/about-render.php:77 inc/customizer/single.php:12
+msgid "Single Post Settings"
+msgstr ""
+
+#: header.php:49
+msgid "Skip to the content"
+msgstr ""
+
+#: inc/widgets/social-link.php:77
+msgid "Skype URL:"
+msgstr ""
+
+#: inc/customizer/header.php:128
+msgid "Slider Banner"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:13
+msgid "Slider Section Settings"
+msgstr ""
+
+#: inc/customizer/banner-slider.php:89
+msgid "Slider Text Color"
+msgstr ""
+
+#: inc/widgets/social-link.php:82
+msgid "Snapchat URL:"
+msgstr ""
+
+#: functions.php:302
+msgid "Social Menu"
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: classes/plugins-classes.php:73
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: inc/metabox.php:115 inc/customizer/post.php:94
+msgid "Square"
+msgstr ""
+
+#: 404.php:38
+msgid "Still feeling lost? You’re not alone."
+msgstr ""
+
+#: inc/widgets/tab-posts.php:41
+msgid "Tabbed widget."
+msgstr ""
+
+#: inc/customizer/customizer.php:83
+msgid "Template Settings"
+msgstr ""
+
+#: classes/about-render.php:234
+msgid "Theme Documentation"
+msgstr ""
+
+#: classes/about-render.php:58 inc/customizer/customizer.php:58
+msgid "Theme Options"
+msgstr ""
+
+#: inc/custom-functions.php:735
+msgid "Theme: "
+msgstr ""
+
+#. Author of the theme
+#: inc/custom-functions.php:735
+msgid "ThemeInWP"
+msgstr ""
+
+#: assets/lib/tgmpa/recommended-plugins.php:60
+msgid "Themeinwp Import Companion"
+msgstr ""
+
+#: inc/custom-functions.php:735
+msgid "ThemeInWP. "
+msgstr ""
+
+#: inc/customizer/layout.php:63
+msgid "Three Column Layout"
+msgstr ""
+
+#: inc/widgets/tab-posts.php:66
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/widgets/social-link.php:42 inc/widgets/category.php:42
+#: inc/widgets/recent-post.php:50
+msgid "Title:"
+msgstr ""
+
+#: inc/custom-functions.php:752
+#, php-format
+msgid "To the Top %s"
+msgstr ""
+
+#: inc/widgets/category.php:47
+msgid "Top Categories:"
+msgstr ""
+
+#: inc/customizer/default.php:57
+msgid "Top Category"
+msgstr ""
+
+#: inc/customizer/header.php:106
+msgid "Top Category Section Title"
+msgstr ""
+
+#: inc/widgets/social-link.php:87
+msgid "Tumblr URL:"
+msgstr ""
+
+#: inc/widgets/social-link.php:92
+msgid "Twitch URL:"
+msgstr ""
+
+#: inc/widgets/social-link.php:52
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/customizer/layout.php:62
+msgid "Two Column Layout"
+msgstr ""
+
+#: classes/about-render.php:250
+#, php-format
+msgid "Unlock all the Features with %1$s Pro"
+msgstr ""
+
+#: functions.php:231 template-parts/content-video.php:86
+msgid "Unmute"
+msgstr ""
+
+#: inc/custom-functions.php:755
+#, php-format
+msgid "Up %s"
+msgstr ""
+
+#: inc/customizer/customizer.php:99
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: classes/admin-notice.php:75 classes/about-render.php:267
+#: classes/about-render.php:274
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:250
+msgid "Upload"
+msgstr ""
+
+#: inc/metabox.php:107
+msgid "Video Aspect Ratio"
+msgstr ""
+
+#: inc/metabox.php:101
+msgid "Video Aspect Ration Setting"
+msgstr ""
+
+#: classes/admin-notice.php:74
+msgid "View Demo"
+msgstr ""
+
+#: woocommerce/woocommerce-function.php:99
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/custom-functions.php:984
+msgid "Views"
+msgstr ""
+
+#: inc/widgets/social-link.php:102
+msgid "Vimeo URL:"
+msgstr ""
+
+#: classes/about-render.php:260
+msgid "VIP priority Support"
+msgstr ""
+
+#: inc/widgets/social-link.php:132
+msgid "VK URL:"
+msgstr ""
+
+#: classes/about-render.php:225
+msgid "We have some resources available to help you in the right direction."
+msgstr ""
+
+#: classes/admin-notice.php:68
+msgid "We've prepared a unique onboarding process through our"
+msgstr ""
+
+#: classes/about-render.php:258
+msgid "Webmaster Tools"
+msgstr ""
+
+#: inc/widgets/social-link.php:107
+msgid "Whatsapp URL:"
+msgstr ""
+
+#: inc/custom-functions.php:736
+msgid "WordPress"
+msgstr ""
+
+#: inc/widgets/social-link.php:112
+msgid "WordPress URL:"
+msgstr ""
+
+#: inc/custom-functions.php:736
+msgid "WordPress."
+msgstr ""
+
+#: 404.php:27
+msgid "You can always find insightful stories on our"
+msgstr ""
+
+#: inc/widgets/social-link.php:97
+msgid "Youtube URL:"
+msgstr ""

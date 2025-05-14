@@ -1,0 +1,287 @@
+/*
+Theme Name: Chique Dark
+Description: Used to style the TinyMCE editor.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Colors
+# RTL
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Body
+--------------------------------------------------------------*/
+
+body {
+	margin: 35px;
+	max-width: 1060px;
+	vertical-align: baseline;
+}
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+/* Background Color */
+body  {
+	background-color: #000;
+}
+
+/* Secondary Background Color */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+	background-color: #2d2d2d;
+}
+
+/* 96% of Secondary Background Color */
+hr,
+pre,
+table thead,
+.mce-item-table thead,
+mark,
+ins {
+	background-color: #2d2d2d;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+optgroup,
+textarea {
+	color: #999;
+}
+
+/* Heading Text Color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.drop-cap:first-letter {
+	color: #fff;
+}
+
+/* Link Color */
+a {
+	color: #fbc439;
+}
+
+/* Link Hover Color */
+a:hover,
+a:focus {
+	color: #fff;
+}
+
+
+/* Secondary Link Color */
+.more-link,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+table a {
+	color: #fff;
+}
+
+/* 60% of Secondary Link Color */
+figcaption,
+.wp-caption .wp-caption-text,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+	color: rgba(255,255,255,0.6);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+select:focus {
+	border-color: rgba(255,255,255,0.6);
+}
+
+/* Secondary Link Hover Color */
+
+table a:hover,
+table a:focus {
+	color: #fbc439;
+}
+
+.more-link .fa,
+blockquote {
+	border-color: #fbc439;
+}
+
+/* Button Background Color */
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button {
+	background-color: #fbc439;
+}
+
+/* Button Text Color */
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button {
+	color: #020202;
+}
+
+/* Button Hover Background Color */
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.button:hover,
+.button:focus {
+	background-color: #6a6a6a;
+}
+
+blockquote {
+	color: #6a6a6a;
+}
+
+
+/* Button Hover Text Color */
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.button:hover,
+.button:focus {
+	color: #fff;
+}
+
+/* Border Color */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+table,
+.mce-item-table,
+th,
+.mce-item-table th,
+td,
+.mce-item-table td,
+fieldset,
+abbr,
+acronym {
+	border-color: #282828;
+}
+
+/* Text Color with background */
+figcaption {
+	color: #fff;
+}
+
+.stats-section .more-link .fa,
+.wp-custom-header-video-button {
+	border-color: #fff;
+}
+
+ /*--------------------------------------------------------------
+# RTL
+--------------------------------------------------------------*/
+
+.rtl .drop-cap::first-letter {
+    float: right;
+    margin: 5px  -2px 0  14px;
+}
+
+.rtl blockquote {
+	border-left: 0;
+	border-right: 4px solid #fab412;
+	padding: 0 1.166666666666667em 0 0;
+}
+
+.rtl ul,
+.rtl ol {
+	margin: 0 21px 28px 0;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+    margin-bottom: 0;
+}
+
+.rtl th,
+.rtl .mce-item-table th,
+.rtl td,
+.rtl .mce-item-table td {
+	text-align: right;
+}
